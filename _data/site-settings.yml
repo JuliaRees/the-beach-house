@@ -1,5 +1,5 @@
 seo:
-  site_name: Tina's Amazing Blog
+  site_name: The Beach House
   title: Default SEO Title
   description:
   keywords:
@@ -11,13 +11,13 @@ social:
   facebook_url:
   twitter_username:
 design:
-  dark-text_color: '#3c3c41'
+  dark-text_color: '#5a7266'
   medium-text_color: '#5a5a5f'
-  light-text_color: '#f7f5f3'
+  light-text_color: '#e5d8c7'
   featured-text_color: '#ff0000'
-  dark_color: '#3c3c41'
+  dark_color: '#5a7266'
   medium_color: '#ede8e4'
-  light_color: '#f7f5f3'
+  light_color: '#e5d8c7'
   v-light_color: '#f9f9f9'
   featured_color: '#6495ed'
   accent_color: '#a74a4a'
