@@ -1,0 +1,38 @@
+<!-- Viewport meta for responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-----Metadata for Favicon------------------>
+
+<!-- The title for SEO & browser tabs -->
+<title> The Beach House </title>
+
+<!------------ SEO Metadata  --------------------------------->
+<title> {{page.seo.title | default: site.data.site-settings.seo.title }} </title> 
+<meta name="description" content="{{page.seo.description | default: site.data.site-settings.seo.description }}">
+<meta name="keywords" content="{{page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
+
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+     <meta name="robots" content="index, follow">
+{% endif %}
+
+<!------------  Social media sharing META Tags ------------>
+
+<!------------ Pinterest Meta Tags ------------>
+
+<!-- This is our fontawesome icons  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+<!-- Gridlex for our flexbox grids  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css" />
+
+<!-- Google fonts -->
+
+<!--- Animate on Scroll ---->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-----Light Gallery For Pop-Ups--->
+
+<!-- This is our custom stylesheet -->
+<link href="/style.css" rel="stylesheet" />
