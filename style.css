@@ -423,6 +423,10 @@ footer a:hover {
   background-image: url('/images/beach-house-17.jpg');
 }
 
+.bg-restaurant-fire { 
+  background-image: url('/images/beach-house-18.jpg');
+}
+
 /* Image Gallery */
 .gallery [class*="col-"] {
     padding: 0.5%;
