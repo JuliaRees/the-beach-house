@@ -44,6 +44,8 @@ html {
 .padded-l  { padding-left: 5%; }
 .padded-r  { padding-bottom: 5%; }
 
+.padding-b-1p { padding-bottom: 1%;}
+
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
 
@@ -204,8 +206,8 @@ a:hover {
 .text-right     {  text-align: right;    }
 .uppercase    { text-transform: uppercase; }
 
-.featured-text  {  color: #FFBE00; }
-.white-text     {  color: white; }
+.featured-text  {  color: #5a7266; }
+.light-text     {  color: white; }
 
 .small-text     {  font-size: 1.5rem; }
 .medium-text    {  font-size: 2rem; }
@@ -235,7 +237,7 @@ p:last-child {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 /*  Header & Footer styles --------------------  */
