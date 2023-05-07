@@ -433,6 +433,30 @@ footer a:hover {
   background-image: url('/images/beach-house-19.jpg');
 }
 
+.bg-food1 { 
+  background-image: url('/images/beach-house-20.jpg');
+}
+
+.bg-food2 { 
+  background-image: url('/images/beach-house-21.jpg');
+}
+
+.bg-food3 { 
+  background-image: url('/images/beach-house-22.jpg');
+}
+
+.bg-food4 { 
+  background-image: url('/images/beach-house-23.jpg');
+}
+
+.bg-food5 { 
+  background-image: url('/images/beach-house-24.jpg');
+}
+
+.bg-food6 { 
+  background-image: url('/images/beach-house-25.jpg');
+}
+
 /*--------------------- Slider Gallery--------------------- */
 .slider-container {
    padding: 5%;
