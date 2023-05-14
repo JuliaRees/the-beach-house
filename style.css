@@ -434,32 +434,110 @@ footer a:hover {
 }
 
 .bg-coffee { 
-  background-image: url('/images/beach-house-26.jpg');
+  background-image: url('/images/beach-house-26.png');
 }
 
 .bg-food1 { 
-  background-image: url('/images/beach-house-20.jpg');
+  background-image: url('/images/beach-house-20.png');
 }
 
 .bg-food2 { 
-  background-image: url('/images/beach-house-21.jpg');
+  background-image: url('/images/beach-house-21.png');
 }
 
 .bg-food3 { 
-  background-image: url('/images/beach-house-22.jpg');
+  background-image: url('/images/beach-house-22.png');
 }
 
 .bg-food4 { 
-  background-image: url('/images/beach-house-23.jpg');
+  background-image: url('/images/beach-house-23.png');
 }
 
 .bg-food5 { 
-  background-image: url('/images/beach-house-24.jpg');
+  background-image: url('/images/beach-house-24.png');
 }
 
 .bg-food6 { 
-  background-image: url('/images/beach-house-25.jpg');
+  background-image: url('/images/beach-house-25.png');
 }
+
+.bg-surf2 { 
+  background-image: url('/images/beach-house-1.jpg');
+}
+
+.bg-surf3 { 
+  background-image: url('/images/beach-house-27.png');
+}
+
+.bg-surf4 { 
+  background-image: url('/images/beach-house-28.png');
+}
+
+.bg-surf5 { 
+  background-image: url('/images/beach-house-29.png');
+}
+
+.bg-yoga1 { 
+  background-image: url('/images/beach-house-30.jpg');
+}
+
+.bg-yoga2 { 
+  background-image: url('/images/beach-house-31.jpg');
+}
+
+.bg-yoga3 { 
+  background-image: url('/images/beach-house-32.jpg');
+}
+
+.bg-yoga4 { 
+  background-image: url('/images/beach-house-33.jpg');
+}
+
+/*--------------------- Overlay --------------------- */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  padding: 5%;
+}
+
+.banner h2 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bg-overlay > * {
+  position: relative;
+}
+
+.bg-overlay-teal::before {
+  background-color: rgba(0, 128, 128,0.5);
+}
+
+/* Gradient Overlay  */ 
+
+.bg-overlay-gradient::before { 
+  background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+}
+
+
 
 /*--------------------- Slider Gallery--------------------- */
 .slider-container {
@@ -543,6 +621,30 @@ footer a:hover {
 }
 
 */
+
+
+/* Card Styles  */
+
+
+.card {
+  padding-top: 1.5rem;
+  color: inherit;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+.card h3 {
+  font-size: 1.8rem;
+}
+
+.card img {
+  margin-top: -2.5rem;
+}
+
+
 
 /* Buttons & Forms --------------------  */
 
@@ -773,6 +875,22 @@ form label {
     }
 
     h2 { font-size: 2rem;}
+
+
+    .horizontal-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 7%;
+    }
+    .card img {
+      margin-top: -25%;
+    }
+    .mob-padded-0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 
 
