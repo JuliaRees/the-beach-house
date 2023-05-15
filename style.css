@@ -64,6 +64,8 @@ html {
 .padded-l-0  { padding-left: 0; }
 .padded-r-0  { padding-bottom: 0; }
 
+.padded-b-7 { padding-bottom: 7rem; }
+
 /* Margin Utility Classes --------------------  */ 
 
 .margin-t { margin-top: 5%; }
@@ -213,14 +215,7 @@ a:hover {
 .medium-text    {  font-size: 2rem; }
 .big-text       {  font-size: 4.5rem; }
 
-h2:last-child, 
-h3:last-child, 
-h4:last-child, 
-h5:last-child, 
-h6:last-child, 
-p:last-child {
-	margin-bottom: 0;
-}
+
 
 /* Unique Typography Styles  */
 /*
@@ -254,8 +249,6 @@ header h3 {
     line-height: 1;
 }
 
-
-
 nav a {
     padding: 0.5rem;
     display: inline-block;
@@ -273,6 +266,8 @@ nav a:hover {
 footer a {
     border: none;
 }
+
+.quote-text { font-size: 1.3rem; }
 
 /*
 footer a:hover { 
@@ -493,6 +488,88 @@ footer a:hover {
   background-image: url('/images/beach-house-33.jpg');
 }
 
+.bg-coffee2 { 
+  background-image: url('/images/beach-house-34.png');
+}
+
+.bg-bathtub { 
+  background-image: url('/images/beach-house-35.png');
+}
+
+.bg-comfy-3 { 
+  background-image: url('/images/beach-house-36.png');
+}
+
+.bg-restaurant-main { 
+  background-image: url('/images/beach-house-37.jpg');
+}
+
+.bg-restaurant-fun { 
+  background-image: url('/images/beach-house-38.png');
+}
+
+.bg-restaurant-table { 
+  background-image: url('/images/beach-house-39.png');
+}
+
+.bg-restaurant-outside { 
+  background-image: url('/images/beach-house-40.png');
+}
+
+.bg-restaurant-table2 { 
+  background-image: url('/images/beach-house-41.png');
+}
+
+.bg-restaurant-table3 { 
+  background-image: url('/images/beach-house-42.jpg');
+}
+
+.bg-surf-beach { 
+  background-image: url('/images/beach-house-43.jpg');
+}
+
+.bg-surf-shop { 
+  background-image: url('/images/beach-house-44.jpg');
+}
+
+.bg-puppy { 
+  background-image: url('/images/beach-house-45.jpg');
+}
+
+.bg-board1 { 
+  background-image: url('/images/beach-house-48.jpg');
+}
+
+.bg-board2 { 
+  background-image: url('/images/beach-house-46.jpg');
+}
+
+.bg-board3 { 
+  background-image: url('/images/beach-house-47.jpg');
+}
+
+.bg-yogashop { 
+  background-image: url('/images/beach-house-49.jpg');
+}
+
+.bg-yogashop1 { 
+  background-image: url('/images/beach-house-50.png');
+}
+
+.bg-yogashop2 { 
+  background-image: url('/images/beach-house-51.png');
+}
+
+.bg-yogashop3 { 
+  background-image: url('/images/beach-house-52.jpg');
+}
+
+.bg-yogabanner { 
+  background-image: url('/images/beach-house-53.png');
+}
+
+
+
 /*--------------------- Overlay --------------------- */
 
 .banner {
@@ -504,9 +581,14 @@ footer a:hover {
 
 .banner h2 {
   color: white;
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 4rem;
+}
+
+.banner h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 .bg-overlay {
