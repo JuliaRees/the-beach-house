@@ -1,9 +1,3 @@
-/* 
-NOTES
-    colors: 
-   
-*/
-
 * {
     padding: 0;
     margin: 0;
@@ -23,12 +17,6 @@ html {
 .flex-flip-alternate:nth-child(even) {
     flex-direction: row-reverse;
 }
-
-/* Move to site-settings later*/
-.bg-dark { background-color: #5a7266; }
-.bg-light { background-color: #fdfcfb; }
-.bg-light-g { background-color: #dde3d8; } 
-
 
 /* Padding Utility Classes --------------------  */ 
 .padded-sm { padding: 2.5%; }
@@ -109,22 +97,43 @@ html {
 
 /* Backgrounds & Images  -------------------- */
 
-/*
-.bg-dark     { background-color: var(--dark);}
-.bg-featured { background-color: var(--featured);}
-.bg-medium   { background-color: var(--medium); }
-.bg-light    { background-color: var(--light); }
-.bg-v-light  { background-color: var(--v-light); }
-*/
 
-/*
 .bg-dark { 
-    background-color: #192B37;
-    color: white;
+  background-color: var(--dark);
+  color: var(--light-text);
 }
-.bg-featured { background-color: #F4B525; }
-.bg-light {  background-color: #E3ECF2; }
-*/
+
+.bg-medium {
+  background-color: var(--medium);
+  color: var(--v-light);
+}
+
+.bg-light {
+  background-color: var(--light);
+  color: var(--dark-text);
+}
+
+.bg-v-light {
+  background-color: var(--v-light);
+  color: var(--dark-text);
+}
+
+.bg-featured {
+  background-color: var(--featured);
+  color: var(--dark-text);
+}
+
+.light-text {
+  color: var(--light-text);
+}
+
+.medium-text {
+  color: var(--medium-text);
+}
+
+.featured-text {
+  color: var(--featured-text);
+}
 
 .subtle { 
     opacity: 0.8;
@@ -165,7 +174,7 @@ html {
 
 body { 
     font-family: 'Lato', sans-serif;;
-    color: #192B37;
+    color: var(--dark-text);
 }
 
 h2, h3, h4, h5, h6 {
@@ -196,7 +205,7 @@ a {
 }
 
 a:hover {
-    color: #FFBE00;
+    color: var(--medium-text);
 }
 
 .font-weight-light { font-weight: 200; }
@@ -206,25 +215,12 @@ a:hover {
 .text-left      {  text-align: left     }
 .text-center    {  text-align: center;  }
 .text-right     {  text-align: right;    }
-.uppercase    { text-transform: uppercase; }
-
-.featured-text  {  color: #5a7266; }
-.light-text     {  color: white; }
+.uppercase      { text-transform: uppercase; }
 
 .small-text     {  font-size: 1.5rem; }
 .medium-text    {  font-size: 2rem; }
 .big-text       {  font-size: 4.5rem; }
 
-
-
-/* Unique Typography Styles  */
-/*
-.emphasis       { font-size: 1.2rem; }
-.text-featured  { color: var(--featured-text);}
-.text-light     { color: var(--light-text);}
-.subtle         { opacity: 0.8;     }
-.subtitle       { font-size: 0.8rem; }
-*/
 
 /*  Font Awesome Icons --------------------  */
 .fas,
@@ -255,7 +251,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--featured-text);
+    color: var(--medium-text);
   }
 
 .logo h2 {
@@ -266,13 +262,11 @@ footer a {
     border: none;
 }
 
-.quote-text { font-size: 1.3rem; }
-
-/*
 footer a:hover { 
-    color: #d3b4a2; 
+  color: var(--featured-text); 
 }
-*/
+
+.quote-text { font-size: 1.3rem; }
 
 
 /* Dropdown styles */
@@ -280,7 +274,7 @@ footer a:hover {
 .dropdown { 
     position: relative; 
     display: inline-block;
-    border: 1px solid orange;
+    border: 1px solid var(--featured-text);
   }
   
   .dropdown-title {
@@ -294,11 +288,11 @@ footer a:hover {
     left: -1rem;
     padding: 0.5rem;
     display:none; 
-    background-color: white;
+    background-color: var(--light);
     z-index: 2;
     text-align: left;
     min-width: 10rem;
-    border: 1px solid mediumvioletred;
+    border: 1px solid var(--featured-text);
   }
   
   .dropdown:hover .dropdown-content{ 
@@ -325,7 +319,7 @@ footer a:hover {
     
     /* Styles when the hamburger button is active  */
     .hamburger-button.active {
-      color: white;
+      color: var(--light-text);
     }
     
     
@@ -579,13 +573,13 @@ footer a:hover {
 }
 
 .banner h2 {
-  color: white;
+  color: var(--light-text);
   font-weight: bold;
   font-size: 4rem;
 }
 
 .banner h3 {
-  color: white;
+  color: var(--light-text);
   font-weight: bold;
   font-size: 1.8rem;
 }
@@ -601,7 +595,7 @@ footer a:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: var(--dark);
 }
 
 .bg-overlay > * {
@@ -609,7 +603,7 @@ footer a:hover {
 }
 
 .bg-overlay-teal::before {
-  background-color: rgba(0, 128, 128,0.5);
+  background-color: var(--medium);
 }
 
 /* Gradient Overlay  */ 
@@ -654,11 +648,11 @@ footer a:hover {
  
  .slick-dots li button::before {
       font-size: 12px;
-      color: rgb(0, 128, 128);
+      color: var(--medium-text);
  }
  
  .slick-dots li.slick-active button::before {
-      color: rgb(231, 76, 60);
+      color: var(--featured-text);
  }
  
  .slick-next::before, .slick-prev::before {
@@ -666,7 +660,7 @@ footer a:hover {
      font-size: 20px;
      line-height: 1;
      opacity: .75;
-     color: rgb(90,90,90);
+     color: var(--medium);
  }
  
 
@@ -744,32 +738,49 @@ textarea {
 
 input:focus, 
 textarea:focus {
-    border: 2px solid #FFBE00; 
+    border: 2px solid var(--featured);
     outline:none;
 }
 
 form label {
 	margin-top: 1rem;
  	display: block;
- 	color: #a2745c;
+ 	color: var(--medium);
  	font-weight: bold;
 }
 
-.button {
+.button-light {
     padding: 0.5rem 2rem;
-    background-color: #dde3d8;
+    background-color: var(--v-light);
     appearance: none;
-    border: 2px solid #dde3d8;
+    border: 2px solid var(--v-light);
     color: inherit;
    /* text-decoration: none;
     display: inline-block;
     font-weight: 400; */
 }
 
-.button:hover {
-  background-color: #5a7266;
-  border: 2px solid #5a7266;
-  color:#dde3d8;
+.button-light:hover {
+  background-color: var(--dark);
+  border: 2px solid var(--dark);
+  color: var(--light-text);
+}
+
+.button-v-light {
+  padding: 0.5rem 2rem;
+  background-color: var(--light);
+  appearance: none;
+  border: 2px solid var(--light);
+  color: inherit;
+ /* text-decoration: none;
+  display: inline-block;
+  font-weight: 400; */
+}
+
+.button-v-light:hover {
+background-color: var(--dark);
+border: 2px solid var(--dark);
+color: var(--light-text);
 }
 
 
@@ -778,7 +789,7 @@ form label {
 .quote-icon {
     font-size: 6rem;
     display: inline-block;
-    color: #5a7266;
+    color: var(--featured-text);
     line-height: 1;
 }
 
@@ -882,7 +893,7 @@ form label {
 
 @media(max-width:64em) {
 
-    body { border: 2px solid green; padding: 0.5rem;}
+    body { border: 2px solid var(--medium); padding: 0.5rem;}
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }

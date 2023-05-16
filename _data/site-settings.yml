@@ -11,13 +11,13 @@ social:
   facebook_url:
   twitter_username:
 design:
-  dark-text_color: '#5a7266'
-  medium-text_color: '#5a5a5f'
-  light-text_color: '#e5d8c7'
-  featured-text_color: '#ff0000'
-  dark_color: '#5a7266'
-  medium_color: '#ede8e4'
-  light_color: '#e5d8c7'
-  v-light_color: '#f9f9f9'
-  featured_color: '#6495ed'
-  accent_color: '#a74a4a'
+  dark-text_color: '#141410' 
+  medium-text_color: '#4c4e3d' 
+  light-text_color: '#e7e4dd' 
+  featured-text_color: '#840032' 
+  dark_color: '#141410'
+  medium_color: '#4c4e3d' 
+  light_color: '#d2ccbf'
+  v-light_color: '#e7e4dd'
+  featured_color: '#CF5C36'
+
