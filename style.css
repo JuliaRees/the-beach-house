@@ -383,6 +383,7 @@ footer a:hover {
 
 .bg-sofa { 
   background-image: url('/images/beach-house-10.jpg');
+  background-position: 50% 87%;
 }
 
 .bg-cliff { 
@@ -561,13 +562,32 @@ footer a:hover {
   background-image: url('/images/beach-house-53.png');
 }
 
+.bg-house2 { 
+  background-image: url('/images/beach-house-54.jpg');
+}
+
+.bg-house3 { 
+  background-image: url('/images/beach-house-55.png');
+}
+
+.bg-house4 { 
+  background-image: url('/images/beach-house-56.jpg');
+}
+
+.bg-house5 { 
+  background-image: url('/images/beach-house-57.jpg');
+}
+
+.bg-house6 { 
+  background-image: url('/images/beach-house-58.jpg');
+}
+
 
 
 /*--------------------- Overlay --------------------- */
 
 .banner {
   background-size: cover;
-  background-position: center;
   min-height: 90vh;
   padding: 5%;
 }
@@ -617,7 +637,12 @@ footer a:hover {
 /*--------------------- Slider Gallery--------------------- */
 .slider-container {
    padding: 5%;
+   padding-top: 2%;
  }
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
  
  .slider-item {
    padding: 0.25rem;
@@ -637,7 +662,7 @@ footer a:hover {
  }
  
  .slick-dots {
-      bottom: 10px;
+      bottom: 5%;
       left: 0; /* This align the dots perfectly to the center, do not delete */
  }
  
