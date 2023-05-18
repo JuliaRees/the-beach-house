@@ -217,8 +217,8 @@ a:hover {
 .text-right     {  text-align: right;    }
 .uppercase      { text-transform: uppercase; }
 
-.small-text     {  font-size: 1.5rem; }
-.medium-text-size    {  font-size: 2rem; }
+.small-text           {  font-size: 1.2rem; }
+.medium-text-size     {  font-size: 2.5rem; }
 .big-text       {  font-size: 4.5rem; }
 
 
@@ -582,6 +582,10 @@ footer a:hover {
   background-image: url('/images/beach-house-58.jpg');
 }
 
+.bg-blog { 
+  background-image: url('/images/beach-house-59.png');
+}
+
 
 
 /*--------------------- Overlay --------------------- */
@@ -631,6 +635,12 @@ footer a:hover {
 .bg-overlay-gradient::before { 
   background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.1));
 }
+
+.bg-overlay-gradient-yoga::before { 
+  background: linear-gradient(180deg, rgba(231, 228, 221, 0.6), rgba(231, 228, 221, 0.0));
+}
+
+
 
 
 

@@ -1,6 +1,12 @@
 collections:
  projects:
   output: true
+ posts:
+  output: true
+  permalink: /posts/:year/:slug
+ archives: 
+  output: true
+  permalink: /:title
 
 _select_data:
   aspect-ratios:
@@ -18,3 +24,26 @@ _select_data:
     col-6_sm-12: One Half (Stacked)
     col-4_sm-12: One Third (Stacked)
     col-3_sm-12: One Quarter (Stacked)
+
+_options:
+  content:
+    styles: /editor.css
+    blockquote: true
+    horizontalrule: true
+    format: p h1 h2 h3 h4 h5 h6
+    bold: true
+    italic: true
+    numberedlist: true
+    bulletedlist: true
+    code: true
+    table: true
+    right: right
+    center: center
+    left: left
+    embed: true
+    link: true
+    undo: true
+    redo: true
+    underline: true
+    strike: true
+    image: true
