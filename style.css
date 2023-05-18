@@ -928,13 +928,30 @@ color: var(--light-text);
 
 @media(max-width:64em) {
 
-    body { border: 2px solid var(--medium); padding: 0.5rem;}
+   /* body { border: 2px solid var(--medium); padding: 0.5rem;} */
 
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
-    .md-tall-80 { min-height: 80vh; }
+  .md-tall-80 { min-height: 80vh; }
+  
+  .md-tall-50 { min-height: 50vh; }
+  .md-tall-30 { min-height: 30vh; }
 
+  .md-text-center    { text-align: center;}
+  
+  .md-padded-r-0     { padding-right: 0;}
+
+  .md-padded-l-0    { padding-left: 0%; }
+
+  .md-padded-t-4      { padding-top: 4.5%; }
+
+  .md-margin-t-1    { margin-top: 1rem; }
+
+  .md-margin-t-4    { margin-top: 4%; }
+  .md-margin-t-6    { margin-top: 6%; }
+
+  .md-margin-b-1 { margin-bottom: 1rem; }
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
