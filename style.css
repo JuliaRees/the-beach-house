@@ -201,7 +201,6 @@ p:last-child {
 a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid;
 }
 
 a:hover {
@@ -267,6 +266,8 @@ footer a:hover {
 }
 
 .quote-text { font-size: 1.3rem; }
+
+
 
 
 /* Dropdown styles */
