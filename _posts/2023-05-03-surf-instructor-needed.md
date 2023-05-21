@@ -1,12 +1,11 @@
 ---
 layout: post
-title: My first post
+title: Surf instructor needed
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum,
   ab, eum dolore perspiciatis tenetur alias aspernatur
 featured: true
 categories:
-  - yoga
   - surf
 featured_image: https://source.unsplash.com/random?sig=7
 seo:
@@ -20,6 +19,6 @@ _comments:
   title: Max 70 characters
   social_image: landscape 1200 x 600px
 ---
-## Adventures at the Beach House
+## The Beach House is looking for a new surf instructor to join the team!
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt earum, ab, eum dolore perspiciatis tenetur alias aspernatur impedit fugiat quos esse accusamus nesciunt accusantium labore provident hic ex est?
